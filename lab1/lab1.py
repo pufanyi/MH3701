@@ -82,6 +82,6 @@ print(f"                       = ${result.fun * 1000:,.2f}")
 print(f"\nSecurity 1 (units): {result.x[1]:.4f}")
 print(f"Security 2 (units): {result.x[2]:.4f}")
 print(f"Security 3 (units): {result.x[3]:.4f}")
-print(f"\nSavings at end of each year:")
+print("\nSavings at end of each year:")
 for t in range(n_years):
     print(f"  Year {t:2d}: s_{t} = {result.x[4 + t]:.4f} ($1,000s)")
